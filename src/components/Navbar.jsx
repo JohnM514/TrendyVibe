@@ -3,8 +3,6 @@ import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import Badge from "@mui/material/Badge";
-import { grey } from "@mui/material/colors";
-
 
 const Container = styled.div`
   height: 60px;
@@ -68,7 +66,7 @@ const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input />
-            <SearchIcon sx={{ color: "gray", fontSize: 14}} />
+            <SearchIcon sx={{ color: "gray", fontSize: 14 }} />
           </SearchContainer>
         </Left>
         <Center>
