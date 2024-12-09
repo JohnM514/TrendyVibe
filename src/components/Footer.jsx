@@ -7,9 +7,11 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
+import { mobile } from "../responsive"
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -22,6 +24,7 @@ const Left = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: "none" })}
 `;
 
 const Title = styled.h3`
@@ -66,6 +69,7 @@ const ContactItem = styled.div`
   display: flex;
   margin-bottom: 20px;
   padding-right: 20px;
+  ${mobile({ marginBottom: "10px" })}
 `;
 
 const Footer = () => {
