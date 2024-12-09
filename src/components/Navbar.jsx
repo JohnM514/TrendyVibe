@@ -63,7 +63,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
+          <Language>ES</Language>
           <SearchContainer>
             <Input />
             <SearchIcon sx={{ color: "gray", fontSize: 14 }} />
@@ -73,8 +73,8 @@ const Navbar = () => {
           <Logo>TrendyVibe</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>REGISTRARSE</MenuItem>
+          <MenuItem>INICIAR SESION</MenuItem>
           <MenuItem>
             <Badge>
               <ShoppingCartOutlinedIcon />
